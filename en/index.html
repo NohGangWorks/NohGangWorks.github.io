@@ -10,7 +10,7 @@
     <title>NohGang Works Co.,Ltd.</title>
     <link rel="alternate" hreflang="ko" href="/ko/">
     <link rel="alternate" hreflang="en" href="/en/">
-    <link rel="stylesheet" href="/styles.css?v=20260814-1">
+    <link rel="stylesheet" href="/styles.css?v=20260814-4">
     <script src="/site.js?v=20260814-1" defer></script>
   </head>
   <body class="home-page">
@@ -18,10 +18,21 @@
       <a class="brand" href="/en/" aria-label="NohGang Works home"><span>NohGang</span><strong>Works</strong></a>
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="/en/" aria-current="page">Home</a>
-        <a href="/en/projects/">Projects</a>
-        <a href="/en/ngst/">NGST</a>
-        <a href="/en/privacy/">Privacy</a>
-        <a href="/en/terms/">Terms</a>
+        <div class="nav-menu">
+          <a class="nav-menu-trigger" href="/en/projects/" aria-haspopup="true" aria-expanded="false">Projects</a>
+          <div class="nav-submenu" aria-label="Projects">
+            <a href="/en/projects/">All projects</a>
+            <a href="/en/ngst/">NGST</a>
+          </div>
+        </div>
+        <div class="nav-menu">
+          <a class="nav-menu-trigger" href="/en/privacy/" aria-haspopup="true" aria-expanded="false">Legal</a>
+          <div class="nav-submenu" aria-label="Legal">
+            <a href="/en/privacy/">Website privacy</a>
+            <a href="/en/privacy/ngst-express-it/">NGST Express It privacy</a>
+            <a href="/en/terms/">Terms of use</a>
+          </div>
+        </div>
         <a class="language-switch" href="/ko/" lang="ko" hreflang="ko">한국어</a>
       </nav>
     </header>

@@ -10,7 +10,7 @@
     <title>주식회사 노강웍스</title>
     <link rel="alternate" hreflang="ko" href="/ko/">
     <link rel="alternate" hreflang="en" href="/en/">
-    <link rel="stylesheet" href="/styles.css?v=20260814-1">
+    <link rel="stylesheet" href="/styles.css?v=20260814-4">
     <script src="/site.js?v=20260814-1" defer></script>
   </head>
   <body class="home-page">
@@ -18,10 +18,21 @@
       <a class="brand" href="/ko/" aria-label="노강웍스 홈"><span>NohGang</span><strong>Works</strong></a>
       <nav class="site-nav" aria-label="주요 메뉴">
         <a href="/ko/" aria-current="page">홈</a>
-        <a href="/ko/projects/">프로젝트</a>
-        <a href="/ko/ngst/">NGST</a>
-        <a href="/ko/privacy/">개인정보</a>
-        <a href="/ko/terms/">이용약관</a>
+        <div class="nav-menu">
+          <a class="nav-menu-trigger" href="/ko/projects/" aria-haspopup="true" aria-expanded="false">프로젝트</a>
+          <div class="nav-submenu" aria-label="프로젝트">
+            <a href="/ko/projects/">전체 프로젝트</a>
+            <a href="/ko/ngst/">NGST</a>
+          </div>
+        </div>
+        <div class="nav-menu">
+          <a class="nav-menu-trigger" href="/ko/privacy/" aria-haspopup="true" aria-expanded="false">법적 고지</a>
+          <div class="nav-submenu" aria-label="법적 고지">
+            <a href="/ko/privacy/">웹사이트 개인정보</a>
+            <a href="/ko/privacy/ngst-express-it/">NGST Express It 개인정보</a>
+            <a href="/ko/terms/">이용약관</a>
+          </div>
+        </div>
         <a class="language-switch" href="/en/" lang="en" hreflang="en">English</a>
       </nav>
     </header>
