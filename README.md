@@ -7,7 +7,7 @@ Basic static homepage for GitHub Pages.
 This repository provides a stable public domain homepage for NohGang Works,
 NGST project information, support contact, and policy pages.
 
-Homepage from this repo: https://nohgangworks.com
+Homepage from this repo: https://nohgangworks.github.io
 
 ## Files
 
