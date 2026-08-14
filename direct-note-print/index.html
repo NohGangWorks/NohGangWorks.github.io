@@ -1,22 +1,24 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer">
-  <title>Direct Note Print</title>
+  <title>Direct Note Print | NohGang Works</title>
   <style>
     :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
     body { display: grid; min-height: 100vh; margin: 0; place-items: center; background: Canvas; color: CanvasText; }
     main { width: min(32rem, calc(100% - 3rem)); text-align: center; }
     h1 { font-size: 1.3rem; }
     p { color: GrayText; line-height: 1.6; }
+    nav { display: flex; justify-content: center; gap: 1rem; margin-top: 1.5rem; font-size: .85rem; }
   </style>
 </head>
 <body>
   <main>
-    <h1>인쇄 문서를 여는 중…</h1>
-    <p id="status">잠시만 기다려 주세요.</p>
+    <h1 id="heading">Opening print document…</h1>
+    <p id="status">Please wait. / 잠시만 기다려 주세요.</p>
+    <nav aria-label="Privacy policies"><a href="/en/privacy/">Privacy</a><a href="/ko/privacy/" lang="ko">개인정보처리방침</a></nav>
   </main>
   <script src="relay.js"></script>
 </body>

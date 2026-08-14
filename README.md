@@ -2,24 +2,26 @@
 
 Hi!
 
-Basic static homepage for GitHub Pages.
+Static corporate website for GitHub Pages.
 
-This repository provides a stable public domain homepage for NohGang Works,
-NGST project information, support contact, and policy pages.
+This repository provides the official public website of NohGang Works Co.,Ltd.
+(주식회사 노강웍스), NGST project information, support contact, and policy pages.
 
 Homepage from this repo: https://nohgangworks.github.io
 
 ## Files
 
-- `index.html`: the public front page GitHub Pages serves at the site root.
-- `projects/index.html`: a list view for public projects served at `/projects/`.
-- `ngst/index.html`: the first project page for NGST, short for Noh Gang Smart Tools, served at `/ngst/`.
-- `privacy/index.html`: the NohGang Works website privacy policy served at `/privacy/`.
-- `privacy/ngst-express-it/index.html`: the NGST Express It app privacy policy served at `/privacy/ngst-express-it/`.
+- `index.html`: language selection for Korean and English.
+- `ko/` and `en/`: separate localized corporate homepages.
+- `ko/projects/`, `en/projects/`: localized public project lists.
+- `ko/ngst/`, `en/ngst/`: localized NGST product-family pages.
+- `ko/privacy/`, `en/privacy/`: localized website privacy policies.
+- `ko/privacy/ngst-express-it/`, `en/privacy/ngst-express-it/`: localized NGST Express It privacy policies.
+- `ko/terms/`, `en/terms/`: localized website terms of use.
 - `direct-note-print/index.html`: the static mobile print handoff for Direct Note Print. Printable data stays in the URL fragment and is not sent in the HTTP request.
-- `privacy.html`, `projects.html`, `ngst.html`, `privacy/ngst-express-it.html`: redirects for previous `.html` URLs.
+- Legacy unprefixed and `.html` policy/project URLs redirect to the English localized pages.
 - `styles.css`: responsive styling for the homepage.
-- `site.js`: small navigation behavior for the mobile privacy menu.
+- `site.js`: small navigation behavior for mobile menus.
 - `assets/hero-space-background.png`: local visual asset for the homepage hero.
 - `.nojekyll`: keeps GitHub Pages in plain static-file mode.
 
