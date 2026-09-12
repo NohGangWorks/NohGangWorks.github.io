@@ -18,6 +18,8 @@ Homepage from this repo: https://nohgangworks.github.io
 - `ko/privacy/`, `en/privacy/`: localized website privacy policies.
 - `ko/privacy/ngst-express-it/`, `en/privacy/ngst-express-it/`: localized NGST Express It privacy policies.
 - `ko/terms/`, `en/terms/`: localized website terms of use.
+- `ko/terms/ngst-express-it/`, `en/terms/ngst-express-it/`: app-specific terms; separate from website terms and store licensing.
+- Express It privacy pages disclose optional Google Drive synchronization, local session data, readable cloud files, and disconnect/deletion controls.
 - `direct-note-print/index.html`: the static mobile print handoff for Direct Note Print. Printable data stays in the URL fragment and is not sent in the HTTP request.
 - Legacy unprefixed and `.html` policy/project URLs redirect to the English localized pages.
 - `styles.css`: responsive styling for the homepage.
