@@ -169,7 +169,7 @@ a {
   padding: clamp(26px, 5vh, 54px) clamp(18px, 6vw, 82px);
   background:
     linear-gradient(90deg, rgba(245, 247, 248, 0.9) 0%, rgba(245, 247, 248, 0.58) 44%, rgba(245, 247, 248, 0.03) 100%),
-    url("assets/hero-space-background.png") right center / cover no-repeat;
+    url("assets/hero-desk-collage.png") right center / cover no-repeat;
 }
 
 .front-hero {
@@ -496,7 +496,7 @@ h2 {
     align-items: start;
     background:
       linear-gradient(180deg, rgba(245, 247, 248, 0.96), rgba(245, 247, 248, 0.74)),
-      url("assets/hero-space-background.png") center / cover no-repeat;
+      url("assets/hero-desk-collage.png") center / cover no-repeat;
   }
 
   .site-footer {

@@ -24,7 +24,7 @@ Homepage from this repo: https://nohgangworks.github.io
 - Legacy unprefixed and `.html` policy/project URLs redirect to the English localized pages.
 - `styles.css`: responsive styling for the homepage.
 - `site.js`: small navigation behavior for mobile menus.
-- `assets/hero-space-background.png`: local visual asset for the homepage hero.
+- `assets/hero-desk-collage.png`: paper-collage desk illustration for the homepage hero.
 - `.nojekyll`: keeps GitHub Pages in plain static-file mode.
 
 ## Local preview
